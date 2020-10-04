@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [orangehrm_login_test]">
+  <test thread-count="5" name="login functionality test(failed)">
+    <classes>
+      <class name="com.orange_hrm.test_runner.Test_Runner_Local">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.orange_hrm.test_runner.Test_Runner_Local -->
+    </classes>
+  </test> <!-- login functionality test(failed) -->
+</suite> <!-- Failed suite [orangehrm_login_test] -->
