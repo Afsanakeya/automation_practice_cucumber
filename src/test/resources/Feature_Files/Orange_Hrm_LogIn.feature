@@ -1,4 +1,5 @@
 Feature: Orange hrm login feature
+@keya
 Scenario Outline: User should be able to login with valid credentials
 Given User on home page
 And Wait for "3" seconds
