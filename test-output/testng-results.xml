@@ -2,19 +2,19 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="orangehrm_login_test" duration-ms="27260" started-at="2020-10-05T00:45:09Z" finished-at="2020-10-05T00:45:36Z">
+  <suite name="orangehrm_login_test" duration-ms="26885" started-at="2020-10-05T01:06:07Z" finished-at="2020-10-05T01:06:34Z">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.orange_hrm.test_runner.Test_Runner_Local@2fd6b6c7]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.orange_hrm.test_runner.Test_Runner_tag@2fd6b6c7]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="login functionality test" duration-ms="27260" started-at="2020-10-05T00:45:09Z" finished-at="2020-10-05T00:45:36Z">
-      <class name="com.orange_hrm.test_runner.Test_Runner_Local">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.orange_hrm.test_runner.Test_Runner_Local@2fd6b6c7]" name="setUpClass" is-config="true" duration-ms="119" started-at="2020-10-05T00:45:09Z" finished-at="2020-10-05T00:45:09Z">
+    <test name="login functionality test" duration-ms="26885" started-at="2020-10-05T01:06:07Z" finished-at="2020-10-05T01:06:34Z">
+      <class name="com.orange_hrm.test_runner.Test_Runner_tag">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.orange_hrm.test_runner.Test_Runner_tag@2fd6b6c7]" name="setUpClass" is-config="true" duration-ms="141" started-at="2020-10-05T01:06:07Z" finished-at="2020-10-05T01:06:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.orange_hrm.test_runner.Test_Runner_Local@2fd6b6c7]" name="feature" duration-ms="26798" started-at="2020-10-05T00:45:09Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-10-05T00:45:36Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.orange_hrm.test_runner.Test_Runner_tag@2fd6b6c7]" name="feature" duration-ms="26403" started-at="2020-10-05T01:06:07Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-10-05T01:06:34Z">
           <params>
             <param index="0">
               <value>
@@ -25,11 +25,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.orange_hrm.test_runner.Test_Runner_Local@2fd6b6c7]" name="tearDownClass" is-config="true" duration-ms="264" started-at="2020-10-05T00:45:36Z" finished-at="2020-10-05T00:45:36Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.orange_hrm.test_runner.Test_Runner_tag@2fd6b6c7]" name="tearDownClass" is-config="true" duration-ms="256" started-at="2020-10-05T01:06:34Z" finished-at="2020-10-05T01:06:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-      </class> <!-- com.orange_hrm.test_runner.Test_Runner_Local -->
+      </class> <!-- com.orange_hrm.test_runner.Test_Runner_tag -->
     </test> <!-- login functionality test -->
   </suite> <!-- orangehrm_login_test -->
 </testng-results>
